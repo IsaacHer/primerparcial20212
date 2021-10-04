@@ -18,6 +18,11 @@ body {
   width: 300px;
   height: 300px;
 }
+
+.imgPequeña {
+  width: 150px;
+  height: 150px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -32,6 +37,17 @@ main {
   justify-content: space-between;
 }
 
+.sectionDesServicios {
+  display: flex;
+  align-items: center;
+}
+
+.sectionIndexdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .button {
   width: 200px;
   height: 30px;
@@ -40,6 +56,59 @@ main {
   background-color: darkblue;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  font-size: 14rem;
+  cursor: pointer;
+  margin: 20rem 0rem;
+}
+
+.botonesServicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+}
+
+.buttonIzquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonIzquierdaEstilo {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+  border-bottom-left-radius: 15px;
+  font-size: 14rem;
+  cursor: pointer;
+  margin: 20rem 0rem;
+}
+.buttonDerecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonDerechaEstilo {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+  border-top-right-radius: 15px;
+  font-size: 14rem;
+  cursor: pointer;
+  margin: 20rem 0rem;
+}
+
+.buttonDerechaEstiloCancelar {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: gray;
+  border-top-right-radius: 15px;
   font-size: 14rem;
   cursor: pointer;
   margin: 20rem 0rem;
