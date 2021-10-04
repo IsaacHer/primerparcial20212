@@ -14,11 +14,6 @@ body {
   margin: auto;
 }
 
-.imgIndex {
-  width: 300px;
-  height: 300px;
-}
-
 .imgPequeña {
   width: 150px;
   height: 150px;
@@ -29,42 +24,10 @@ main {
   align-items: center;
 }
 
-.sectionIndex {
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.sectionDesServicios {
-  display: flex;
-  align-items: center;
-}
-
 .sectionIndexValor {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.sectionIndexdiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button {
-  width: 200px;
-  height: 30px;
-  border: none;
-  color: white;
-  background-color: darkblue;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  font-size: 14rem;
-  cursor: pointer;
-  margin: 20rem 0rem;
 }
 
 .botonesServicios {
@@ -108,7 +71,19 @@ main {
   margin: 20rem 0rem;
 }
 
-.buttonDerechaEstiloCancelar {
+.buttonIzquierdaEstiloCancelar {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: gray;
+  border-bottom-left-radius: 15px;
+  font-size: 14rem;
+  cursor: pointer;
+  margin: 20rem 0rem;
+}
+
+.buttonDerechaEstiloGris {
   width: 200px;
   height: 30px;
   border: none;
