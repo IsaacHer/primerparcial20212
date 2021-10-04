@@ -18,11 +18,6 @@ body {
   width: 150px;
   height: 150px;
 }
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .sectionIndexValor {
   display: flex;
@@ -30,6 +25,20 @@ main {
   align-items: center;
 }
 
+.contentInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.input {
+  width: 40%;
+  height: 40rem;
+  padding-left: 10rem;
+  text-align: center;
+  font-size: 20rem;
+}
 .botonesServicios {
   display: grid;
   grid-template-columns: 1fr 1fr;
